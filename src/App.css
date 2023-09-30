@@ -1,0 +1,31 @@
+.icons-wrapper {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+}
+
+.dark .icons-wrapper {
+  transform: translate(-150%, -50%);
+}
+
+.light .icons-wrapper {
+  transform: translate(50%, -50%);
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.sun-icon {
+  color: #fcd34d;
+}
+
+.moon-icon {
+  color: #a3a3a3;
+}
+
+.toggle-icon {
+  font-size: 1.5rem;
+}
